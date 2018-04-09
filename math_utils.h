@@ -1,4 +1,6 @@
 #include <vector>
+#include <iostream>
+#include <cmath>
 
 class Math {
     public:
