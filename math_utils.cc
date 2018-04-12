@@ -38,3 +38,14 @@ bool Math::EqualParity(std::vector<int> nums)
 
     return total_parity == number_of_checks;
 }
+
+
+/*
+Calulates x for a given a, b, and c, then returns it
+*/
+double Math::solveQuadratic(int a, int b, int c) {
+    double x1 = (-1 * b + sqrt(b * b - 4 * a * c) / 2 * a * c);
+    // to do plus or minus
+    double x2 = (-1 * b - sqrt(b * b - 4 * a * c) / 2 * a * c);
+    return x1;
+}
